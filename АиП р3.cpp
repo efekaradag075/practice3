@@ -186,8 +186,6 @@ int run(int argc, char* argv[]) {
     return out ? 0 : 2;
 }
 
-}
-
 int main(int argc, char* argv[]) {
     return karadag::run(argc, argv);
 }
